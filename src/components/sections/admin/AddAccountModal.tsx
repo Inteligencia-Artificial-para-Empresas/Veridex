@@ -147,7 +147,7 @@ export default function AddAccountModal({ isOpen, onClose }: Props) {
                   <div>
                     <label className="block text-[10px] font-black text-white/40 uppercase tracking-widest mb-2 ml-1">Fecha Creación</label>
                     <div className="relative">
-                      <Calendar className="cursor-pointer absolute left-4 top-1/2 -translate-y-1/2 text-white" size={16} />
+                      <Calendar className="absolute left-4 top-1/2 -translate-y-1/2 text-white" size={16} />
                       <input
                         required
                         type="date"
